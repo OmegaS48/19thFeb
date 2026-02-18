@@ -1,0 +1,43 @@
+body{
+    color: cyan;
+}
+
+@keyframes Shaad{
+    0%{
+        margin:0px;
+        background-color: blue;
+        
+    }
+    33%{
+        margin:100px;
+        background-color: green;
+        border-radius: 50%;
+    }
+    50%{
+        margin:200px;
+        background-color: yellow;
+        border-radius: 50%;
+    }
+    67%{
+        margin:300px;
+        background-color: pink;
+        border-radius: 50%;
+    }
+    100%{
+        margin: 400px;
+        background-color: silver;
+        border-radius: 0%;
+    }
+}
+
+
+div{
+    height: 100px;
+    width: 100px;
+    animation-name: Shaad;
+    animation-duration: 0.4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    background-color: blue;
+    animation-direction: alternate-reverse;
+}

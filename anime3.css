@@ -1,0 +1,25 @@
+@keyframes Shaad{
+    from{
+        margin:0px;
+        background-color: blue;
+        ;
+    }
+    to{
+        margin:300px;
+        background-color: yellow;
+        border-radius: 50%;
+    }
+}
+
+
+
+div{
+    height: 100px;
+    width: 100px;
+    animation-name: Shaad;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    background-color: blue;
+    animation-direction: alternate-reverse;
+}
