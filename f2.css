@@ -1,0 +1,30 @@
+body{
+    height: 97.5vh;
+    display: flex;
+    background-color: black;
+}
+@keyframes stud {
+    0%{
+        margin-left: 0px;
+        border-left: 8px solid silver;
+    }
+    25% { 
+        margin-left: auto;
+        border-top: 8px solid silver;
+    }
+    50%{
+        margin-top: auto;
+        border-right: 8px solid silver;
+    }
+    75%{
+        margin-top: auto;
+        border-bottom : 8px solid silver;
+    }
+}
+div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    animation: stud 2s 0s steps(200) infinite normal;
+}
